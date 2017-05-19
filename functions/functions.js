@@ -49,7 +49,7 @@ module.exports = {
 	* @params: anArrayContainingRooms (array of rooms), nameOfRoom (name of room)
 	*/
 
-	findRoomByName: (anArrayContainingRooms, nameOfRoom){
+	findRoomByName: (anArrayContainingRooms, nameOfRoom) => {
 
 		let roomsRetuned = [];
 
@@ -71,7 +71,7 @@ module.exports = {
 	* @params: anArrayContainingRooms (array of rooms), sizeOfRoom(name of room)
 	*/
 
-	findRoomByName: (anArrayContainingRooms, sizeOfRoom){
+	findRoomByName: (anArrayContainingRooms, sizeOfRoom) => {
 
 		let roomsRetuned = [];
 
@@ -85,7 +85,6 @@ module.exports = {
 
 		return roomsReturned;
 	}
-
 
 }
 
