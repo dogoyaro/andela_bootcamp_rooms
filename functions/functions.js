@@ -21,7 +21,7 @@ module.exports = {
 		}
 
 		return roomsReturned;
-	}
+	},
 
 
 	/**
@@ -43,7 +43,7 @@ module.exports = {
 
 
 		return roomsReturned;
-	}
+	},
 
 
 	/**
@@ -64,7 +64,7 @@ module.exports = {
 		}
 
 		return roomsReturned;
-	}
+	},
 
 
 
@@ -86,7 +86,7 @@ module.exports = {
 		}
 
 		return roomsReturned;
-	}
+	},
 
 	getRooms: () =>
 	{
