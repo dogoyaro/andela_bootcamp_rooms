@@ -66,6 +66,25 @@ module.exports = {
 
 
 
+	/**
+	* findRoomBySize() find rooms for Andelans based on the type of rooms.
+	* @params: anArrayContainingRooms (array of rooms), sizeOfRoom(name of room)
+	*/
+
+	findRoomByName: (anArrayContainingRooms, sizeOfRoom){
+
+		let roomsRetuned = [];
+
+		let noOfRooms = anArrayContainingRooms.length;
+
+		for(let i = 0; i < noOfRooms; i++){
+			if(anArrayContainingRooms[i].getSize() == sizeOfRoom){
+				roomsReturned.push(anArrayContainingRooms[i]);
+			}
+		}
+
+		return roomsReturned;
+	}
 
 
 }
